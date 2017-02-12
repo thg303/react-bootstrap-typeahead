@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-typeahead-ali",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React-based typeahead using the Bootstrap theme by react-bootstrap-typeahead v1.0.0-beta5",
   "main": "lib/index.js",
   "directories": {
