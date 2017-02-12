@@ -1,7 +1,7 @@
 {
-  "name": "react-bootstrap-typeahead",
-  "version": "1.0.0-beta5",
-  "description": "React-based typeahead using the Bootstrap theme",
+  "name": "react-bootstrap-typeahead-ali",
+  "version": "1.0.0",
+  "description": "React-based typeahead using the Bootstrap theme by react-bootstrap-typeahead v1.0.0-beta5",
   "main": "lib/index.js",
   "directories": {
     "example": "example"
@@ -24,7 +24,13 @@
     "tokenizer",
     "typeahead"
   ],
-  "author": "ericgio",
+  "authors": [
+    {
+      "name": "ericgio"
+    },
+    {
+      "name": "Ali Ghanavatian"
+    }],
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.0",

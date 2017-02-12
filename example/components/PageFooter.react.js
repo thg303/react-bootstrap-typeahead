@@ -3,7 +3,7 @@ import React from 'react';
 import {version} from '../../package.json';
 
 import Container from './Container';
-import GitHubStarsButton from './GitHubStarsButton';
+import GitHubStarsButton from './GithubStarsButton';
 
 const AUTHOR_GITHUB_URL = 'https://github.com/ericgio';
 const BASE_GITHUB_URL = `${AUTHOR_GITHUB_URL}/react-bootstrap-typeahead`;

@@ -57,6 +57,10 @@ const Typeahead = React.createClass({
      */
     defaultSelected: PropTypes.array,
     /**
+     * String set as default value
+     */
+    defaultText: PropTypes.string,
+    /**
      * Specify whether the menu should appear above the input.
      */
     dropup: PropTypes.bool,
@@ -147,6 +151,7 @@ const Typeahead = React.createClass({
       caseSensitive: false,
       clearButton: false,
       defaultSelected: [],
+      defaultText: '',
       dropup: false,
       filterBy: [],
       ignoreDiacritics: true,
@@ -181,7 +186,7 @@ const Typeahead = React.createClass({
   },
 
   getInitialState() {
-    const {defaultSelected, maxResults} = this.props;
+    const {defaultSelected, maxResults, defaultText} = this.props;
 
     let selected = this.props.selected.slice();
     if (defaultSelected && defaultSelected.length) {
@@ -195,7 +200,7 @@ const Typeahead = React.createClass({
       selected,
       showMenu: false,
       shownResults: maxResults,
-      text: '',
+      text: defaultText,
     };
   },
 
